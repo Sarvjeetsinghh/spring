@@ -1,0 +1,23 @@
+package in.sp.beans;
+
+public class Student 
+{
+	private int rollno;
+	private String name;
+	private Subjects sujects;
+	public void setRollno(int rollno) {
+		this.rollno = rollno;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setSujects(Subjects sujects) {
+		this.sujects = sujects;
+	}
+	
+	public void display() {
+		System.out.println("rollno : " + rollno);
+		System.out.println("name : " + name);
+		System.out.println("subjects : " + sujects);
+	}
+}

@@ -1,0 +1,44 @@
+package in.sp.resources;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import in.sp.beans.Address;
+import in.sp.beans.Student;
+import in.sp.beans.Subject;
+
+@Configuration
+public class springConfigFile {
+	
+	@Bean
+	public Address createAddObj() {
+		
+		Address addr = new Address();
+		addr.setHouseno(454);
+		addr.setCity("Punjab");
+		addr.setPincode(939);
+		return addr;
+	}
+	
+	@Bean
+	public Subject createSubObj() {
+		Subject sub = new Subject();
+		List <String> subList = new ArrayList<String>();
+		subList.add("Java");
+		subList.add("MySQL");
+		subList.add("Spring");
+		
+		sub.setSubject(subList);
+		return sub;
+	}
+	
+	public Student createStdObj() {
+		Student stdr = new Student();
+		stdr.setRollno(521);
+		stdr.setName("Aditya");
+		return stdr;
+	}
+}

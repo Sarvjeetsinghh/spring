@@ -1,0 +1,18 @@
+package in.sp.beans;
+
+import java.util.List;
+
+public class Subject 
+{
+	private List<String> subject;
+
+	public void setSubject(List<String> subject) {
+		this.subject = subject;
+	}
+	
+	@Override
+	public String toString() {
+		return subject.toString();
+	}
+	
+}

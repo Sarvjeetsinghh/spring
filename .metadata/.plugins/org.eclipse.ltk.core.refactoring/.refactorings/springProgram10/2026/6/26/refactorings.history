@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;springProgram12/src&apos;&#x0D;&#x0A;- Original project: &apos;springProgram10&apos;&#x0D;&#x0A;- Destination element: &apos;springProgram12/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     springProgram10/src/in.sp.main&#x0D;&#x0A;     springProgram10/src/in.sp.resources&#x0D;&#x0A;     springProgram10/src/in.sp.beans" description="Copy packages" destination="=springProgram12/src" element1="/src&lt;in.sp.main" element2="/src&lt;in.sp.resources" element3="/src&lt;in.sp.beans" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1782509243655" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;springProgram16XMLAutowirnigConstr/src&apos;&#x0D;&#x0A;- Original project: &apos;springProgram15XMLAutowingMultiObj&apos;&#x0D;&#x0A;- Destination element: &apos;springProgram16XMLAutowirnigConstr/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     springProgram15XMLAutowingMultiObj/src/in.sp.resources&#x0D;&#x0A;     springProgram15XMLAutowingMultiObj/src/in.sp.beans&#x0D;&#x0A;     springProgram15XMLAutowingMultiObj/src/in.sp.main" description="Copy packages" destination="=springProgram16XMLAutowirnigConstr/src" element1="/src&lt;in.sp.resources" element2="/src&lt;in.sp.beans" element3="/src&lt;in.sp.main" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1782677907140" version="1.0"/>
+</session>
